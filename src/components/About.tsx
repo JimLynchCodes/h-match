@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 py-12"
+      className="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 pt-12 pb-6"
     >
       <div className="flex flex-col items-center justify-center">
         <div>
@@ -85,9 +85,12 @@ const About = () => {
             </svg>
           </a>
         </div>
-        <div className="flex items-center mt-10">
+        <div className="flex items-center mt-10 flex-col">
           <p className="mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50">
             &copy; {new Date().getFullYear()} Hoboken Matchmaking, LLC
+          </p>
+          <p className="mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50">
+            Fuck you, Cody
           </p>
         </div>
       </div>
